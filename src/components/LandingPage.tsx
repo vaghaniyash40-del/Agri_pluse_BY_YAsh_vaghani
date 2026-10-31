@@ -101,7 +101,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-950 group">
                 <img
-                  src="/src/assets/images/hero_alaska_vertical_farm_1793391438656.jpg"
+                  src="/assets/images/hero_alaska_vertical_farm_1793391438656.jpg"
                   alt="AgriPulse sustainable vertical urban farm with solar powered LED light grids"
                   referrerPolicy="no-referrer"
                   className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-105"
@@ -292,7 +292,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           {/* Detailed Leaf / Cellular Cross-Section Image */}
           <div className="lg:col-span-5 rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-white">
             <img
-              src="/src/assets/images/photosynthesis_cellular_science_1793391438810.jpg"
+              src="/assets/images/photosynthesis_cellular_science_1793391438810.jpg"
               alt="Photosynthesis cellular structure cross section with thylakoid membranes, chlorophyll, and Calvin cycle"
               referrerPolicy="no-referrer"
               className="w-full h-[360px] object-cover"
@@ -430,7 +430,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-6 sm:p-8">
             <div className="lg:col-span-6 rounded-xl overflow-hidden border border-slate-200 shadow-xs relative bg-slate-100">
               <img
-                src="/src/assets/images/huge_alaska_giant_pumpkin_1793438661314.jpg"
+                src="/assets/images/huge_alaska_giant_pumpkin_1793438661314.jpg"
                 alt="Record-breaking 2,147 lb giant pumpkin grown under the natural 20-hour Alaska summer sunlight"
                 referrerPolicy="no-referrer"
                 className="w-full h-[320px] sm:h-[380px] object-cover"
@@ -495,7 +495,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className="rounded-2xl border border-slate-200 bg-slate-50/50 overflow-hidden shadow-xs hover:border-emerald-300 transition-all flex flex-col">
               <div className="h-64 sm:h-72 overflow-hidden relative bg-slate-100">
                 <img
-                  src="/src/assets/images/wheeled_mobile_light_grid_1793438661848.jpg"
+                  src="/assets/images/wheeled_mobile_light_grid_1793438661848.jpg"
                   alt="Automated wheeled vertical farming light grid moving on floor rails between aeroponic racks"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
@@ -537,7 +537,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className="rounded-2xl border border-slate-200 bg-slate-50/50 overflow-hidden shadow-xs hover:border-emerald-300 transition-all flex flex-col">
               <div className="h-64 sm:h-72 overflow-hidden relative bg-slate-100">
                 <img
-                  src="/src/assets/images/rooftop_urban_plant_setup_1793438662120.jpg"
+                  src="/assets/images/rooftop_urban_plant_setup_1793438662120.jpg"
                   alt="Compact rooftop vertical aeroponic plant setup with integrated solar panel and city skyline"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
@@ -600,7 +600,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-xs flex flex-col">
               <div className="h-48 overflow-hidden relative bg-slate-100">
                 <img
-                  src="/src/assets/images/sdg_zero_hunger_produce_1793391441033.jpg"
+                  src="/assets/images/sdg_zero_hunger_produce_1793391441033.jpg"
                   alt="UN SDG 2 Zero Hunger crisp vertical farm harvest"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -629,7 +629,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-xs flex flex-col">
               <div className="h-48 overflow-hidden relative bg-slate-100">
                 <img
-                  src="/src/assets/images/sdg_clean_solar_energy_1793391440598.jpg"
+                  src="/assets/images/sdg_clean_solar_energy_1793391440598.jpg"
                   alt="UN SDG 7 Clean Energy rooftop solar and LiFePO4 batteries"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
