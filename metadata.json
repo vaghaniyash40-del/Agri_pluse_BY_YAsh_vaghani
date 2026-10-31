@@ -1,0 +1,6 @@
+{
+  "name": "AgriPulse - Smart Urban Farm Manager",
+  "description": "IoT control platform for solar-powered vertical farming towers and mobile light grids operating on the 20-hour Alaska Protocol.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
