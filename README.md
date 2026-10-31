@@ -135,48 +135,39 @@ agripulse/
 
 ---
 
-## ☁️ Free Hosting Recommendations & Deployment Guide
+## ☁️ How to Deploy the Exact React UI/UX (Free Hosting)
 
-AgriPulse is built as a high-performance **React + Vite Single Page Application (SPA)** with zero backend server dependencies required for client-side evaluation. 
+AgriPulse is engineered as a high-performance **React + Vite + Tailwind CSS Single Page Application (SPA)**. 
 
-### Why Streamlit Hosting Failed for This App
-* **Streamlit** is a Python framework designed for Python scripts (`streamlit_app.py`). When hosted on Streamlit Community Cloud, it expects Python and cannot run a React/TypeScript/Vite frontend, resulting in a broken or missing layout.
-* **AgriPulse** must be deployed on **Static Web Hosting Providers** that support HTML/CSS/JS frontend bundles.
+### ⚠️ Why Streamlit Looked Different
+* **Streamlit** is a Python data-app runner. When you deployed the repository on Streamlit, it loaded a Python interface rather than our custom React frontend.
+* **To get the exact same stunning UI/UX as the AI Studio preview**, you must deploy this repository as a **Static Web App** on **Vercel** or **Netlify** (both are 100% free).
 
 ---
 
-### Recommended Free Static Hosting Providers
+### Recommended Free Hosts for Exact React UI/UX
 
-1. **Vercel (Recommended)**
-   * **Cost:** 100% Free for personal & commercial static sites.
-   * **How to Deploy:**
-     1. Push your clean repository to GitHub.
-     2. Log in to [Vercel](https://vercel.com) and click **Add New → Project**.
-     3. Import your AgriPulse GitHub repository.
-     4. Vercel automatically detects Vite settings:
-        * Build Command: `npm run build`
-        * Output Directory: `dist`
-     5. Click **Deploy**. Your live URL will be ready in 30 seconds!
+1. **Vercel (Recommended - 30 Second Setup)**
+   * **Cost:** 100% Free
+   * **Steps:**
+     1. Push this repository to GitHub (without Python/Streamlit files).
+     2. Go to [Vercel.com](https://vercel.com) and click **Add New → Project**.
+     3. Import your GitHub repository.
+     4. Vercel will auto-detect Vite:
+        * **Framework Preset:** Vite
+        * **Build Command:** `npm run build`
+        * **Output Directory:** `dist`
+     5. Click **Deploy**. Vercel will give you a live URL showing the **exact, pixel-perfect React UI/UX** you saw in AI Studio!
 
 2. **Netlify**
-   * **Cost:** 100% Free tier.
-   * **How to Deploy:**
-     1. Log in to [Netlify](https://netlify.com) and drag-and-drop your `dist/` folder (after running `npm run build`), or connect your GitHub repository.
-     2. Build settings: Build command `npm run build`, publish directory `dist`.
-     3. Click Deploy.
-
-3. **Render (Static Site)**
-   * **Cost:** Free static site tier.
-   * **How to Deploy:**
-     1. Create a new **Static Site** on Render.
-     2. Connect your GitHub repository.
-     3. Build Command: `npm run build`
-     4. Publish Directory: `dist`
-
-4. **GitHub Pages**
-   * **Cost:** Free.
-   * **How to Deploy:**
-     * Use GitHub Actions or build locally and publish the `dist/` folder to your `gh-pages` branch.
+   * **Cost:** 100% Free
+   * **Steps:**
+     1. Go to [Netlify.com](https://www.netlify.com) and connect your GitHub repository.
+     2. Build settings:
+        * **Base directory:** (leave blank)
+        * **Build command:** `npm run build`
+        * **Publish directory:** `dist`
+     3. Click **Deploy Site**.
 
 ---
 
