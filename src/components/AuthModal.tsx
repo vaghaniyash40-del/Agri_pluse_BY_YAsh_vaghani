@@ -290,9 +290,6 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                     className="w-full pl-9 pr-3 py-2 rounded-xl border border-slate-300 focus:outline-hidden focus:ring-1 focus:ring-emerald-500"
                   />
                 </div>
-                <div className="text-[11px] text-slate-500 mt-1">
-                  <span>Demo Admin: <button type="button" onClick={() => setAdminUser(adminCredentials.username)} className="font-mono text-emerald-700 font-semibold hover:underline">{adminCredentials.username}</button></span>
-                </div>
               </div>
 
               <div>
@@ -306,9 +303,6 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                     onChange={(e) => setAdminPass(e.target.value)}
                     className="w-full pl-9 pr-3 py-2 rounded-xl border border-slate-300 focus:outline-hidden focus:ring-1 focus:ring-emerald-500"
                   />
-                </div>
-                <div className="text-[11px] text-slate-500 mt-1">
-                  <span>Demo Password: <button type="button" onClick={() => setAdminPass(adminCredentials.password)} className="font-mono text-emerald-700 font-semibold hover:underline">{adminCredentials.password}</button></span>
                 </div>
               </div>
 
@@ -325,10 +319,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                     className="w-full pl-9 pr-3 py-2 font-mono tracking-widest text-sm rounded-xl border border-slate-300 focus:outline-hidden focus:ring-1 focus:ring-emerald-500"
                   />
                 </div>
-                <div className="text-[11px] text-slate-500 mt-1 flex items-center justify-between">
-                  <span>Demo PIN: <button type="button" onClick={() => setAdminPin(adminCredentials.pin)} className="font-mono text-emerald-700 font-bold tracking-wider hover:underline">{adminCredentials.pin}</button></span>
-                </div>
-                <div className="text-[10px] text-slate-400 mt-0.5">
+                <div className="text-[10px] text-slate-400 mt-1">
                   Mandatory 10-digit hardware cryptographic challenge.
                 </div>
               </div>
